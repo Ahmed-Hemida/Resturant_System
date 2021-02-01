@@ -18,6 +18,13 @@ public class Resturant_System {
         // TODO code application logic here
 //            System.out.println("LOL");
         Menu menu=new Menu();
+//        System.out.print("\n sdvsdvd");
+//         System.out.print("\n sdvsdvd");
+//          System.out.print("\n sdvsdvd");
+//           System.out.print("\n sdvsdvd");
+//            System.out.print("\n sdvsdvd");
+//             System.out.print("\n sdvsdvd");
+           
         Food e=new Food();
         e.name="lol";
         e.size="s";

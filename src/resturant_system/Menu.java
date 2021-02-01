@@ -33,10 +33,11 @@ public class Menu {
     public void update(Food temp){
         try {
            FileWriter outfile=new FileWriter("MenuData.txt",true);
-
-           outfile.write(temp.name.concat("\n"));
-           outfile.write(temp.size.concat("\n"));
-           outfile.write(String.valueOf((int)temp.getPrice()).concat("\n"));
+//         outfile.newLine();
+       
+           outfile.write(temp.name.concat("\r\n"));
+           outfile.write(temp.size.concat("\r\n"));
+           outfile.write(String.valueOf((int)temp.getPrice()).concat("\r\n"));
 
             outfile.close();
         }catch (IOException e){
