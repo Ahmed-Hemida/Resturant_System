@@ -19,11 +19,11 @@ public class Food {
 
     @Override
     public String toString() {
-        return "Food{" +
-                "price=" + price +
-                ", name='" + name + '\'' +
-                ", size=" + size +
-                ", lastOrderAmount=" + lastOrderAmount +
+        return "{" +
+                "price=>" + price +
+                ", name=>'" + name + '\'' +
+                ", size=>" + size +
+                ", lastOrderAmount=>" + lastOrderAmount +
                 '}'+"\n";
     }
 }

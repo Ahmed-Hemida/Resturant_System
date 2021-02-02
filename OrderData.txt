@@ -1,0 +1,3 @@
+{"size":"x","num_pieces":100,"price":2,"name":"www"}
+{"size":"xx","num_pieces":4,"price":25,"name":"piz"}
+{"size":"d","num_pieces":1,"price":2,"name":"wwww"}
