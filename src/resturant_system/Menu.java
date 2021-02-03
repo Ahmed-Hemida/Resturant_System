@@ -41,5 +41,14 @@ public class Menu {
             e.printStackTrace();
         }
     }
+    
+    public Food search(String name){
+        name=name.toLowerCase();
+        for (Food temp:menuFood) {
+            if (temp.name.equals(name))
+                return temp;
+        }
+        return null;
+    }
 
 }
