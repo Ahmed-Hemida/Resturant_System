@@ -11,6 +11,7 @@ public class Food {
 
     public void setPrice(double price) {
         this.price = price;
+//        System.out.println("price"+price);
     }
 
     public double getPrice() {

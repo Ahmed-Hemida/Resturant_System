@@ -29,17 +29,26 @@ public class Resturant_System {
 //        menu.update(e);
 //            recipt.detete_recipt();
             boolean resume=true;
+            Scanner cin= new Scanner(System.in);
                 do{
                 
-               
 //                recipt.read_order();
-                   Scanner cin= new Scanner(System.in);
                     System.out.println(" enter meal name ");
                    e.name=cin.nextLine();
+                   
                    System.out.println(" enter meal size ");
                   e.size=cin.nextLine();
-                  System.out.println(" enter meal price");
-                   e.setPrice(Integer.parseInt(cin.nextLine()));
+                  if(menu.search(e)==null){
+                      System.out.println(" we not have this meal ");
+                      
+                  break;
+                  }else{
+                      //e.e.getPrice() == zero ,why?
+                  System.out.println(e.getPrice());
+                  }
+                   
+//                  System.out.println(" enter meal price");
+//                   e.setPrice(Integer.parseInt(cin.nextLine()));
                    System.out.println(" enter meal piece");
                   int num_pieces =Integer.parseInt(cin.nextLine());
                 recipt.record_order(e,num_pieces);
@@ -61,6 +70,14 @@ public class Resturant_System {
                  System.out.println(" name \t price \t size \t pieces num \t meal price ");
                 recipt.print_recipt(); 
                 System.out.println("Happy meal");
+                 System.out.println("do you want to delete the recipt enter (y) ");
+                    switch(cin.nextLine()){
+                        case "y":
+                            recipt.detete_recipt();
+                            break;
+                       
+                    }
+                
 //                 recipt.detete_recipt();
 //        System.out.println(menu.menuFood.toString());
     }
