@@ -80,6 +80,7 @@ public class Recipt {
        public void print_recipt(){
         JSONArray jsonObjectArray = read_order();
         float total =0;
+         System.out.println(" name \t price \t size \t pieces num \t meal price ");
         for (int i = 0 ; i < jsonObjectArray.length(); i++) {
          try {
              JSONObject obj = jsonObjectArray.getJSONObject(i); 

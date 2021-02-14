@@ -44,13 +44,14 @@ public class Menu {
     
     public Food search(Food e){
         e.name=e.name.toLowerCase();
-         e.size=e.name.toLowerCase();
+         e.size=e.size.toLowerCase();
         for (Food temp:menuFood) {
-            if (temp.name.equals(e.name)&&temp.size.equals(e.size))
+            if (e.name.equals(temp.name.toLowerCase())&&e.size.equals(temp.size.toLowerCase())){
                 e.setPrice(temp.getPrice());
             //e.e.getPrice() == zero ,why?
              System.out.println("e.getPrice() = "+e.getPrice());
                 return e;
+            }
         }
         return null;
     }
