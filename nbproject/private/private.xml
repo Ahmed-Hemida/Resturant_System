@@ -2,6 +2,15 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
         <group/>
+=======
+        <group>
+            <file>file:/C:/Users/Om562/Documents/NetBeansProjects/IClub/Resturant_System/src/resturant_system/Recipt.java</file>
+            <file>file:/C:/Users/Om562/Documents/NetBeansProjects/IClub/Resturant_System/src/resturant_system/Resturant_System.java</file>
+            <file>file:/C:/Users/Om562/Documents/NetBeansProjects/IClub/Resturant_System/src/resturant_system/Food.java</file>
+            <file>file:/C:/Users/Om562/Documents/NetBeansProjects/IClub/Resturant_System/src/resturant_system/Menu.java</file>
+        </group>
+>>>>>>> 2e2ac218e974109cf552f073aeb65c9c8d3aa432
     </open-files>
 </project-private>
